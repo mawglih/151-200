@@ -1,0 +1,2 @@
+If array is only single number - return that number. Otherwise prepare to have 3 outputs after multiplication: positive, 0 and negative. In for loop, after multiplication check which bigger current or max (saved), so max is saved. Now check current if it is 0 - strat over by setting current to 1 and foundnegative to 1, if it is less than zero. check which is bigger max or current, and assign current to foundnegative if it is equal to 1.
+Return max.
